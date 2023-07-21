@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block titulo %}
+ Inicio
+{% endblock titulo %}
+
+{% block contenido %}
+  <div class="p-5 mb-4 bg-light rounded-3 mt-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Bienvenido al registro del almacen Jenitho</h1>
+      <p class="col-md-8 fs-4"></p>
+    </div>
+  </div>
+  <section class="d-block user-select-none" width="100cm" height="100cm" viewBox="0 0 0 0" >
+    <div class="row pgmLogoBlanco fill="#dee2e6">
+      <img src="https://www.ceupe.com/images/easyblog_articles/3625/b2ap3_large_que-es-un-tienda-online.png" 
+      class="img-thumbnail"
+       alt="logo" 
+       size="100cm">
+    </div>
+</section>
+  <div class="card-body">
+    <h3 class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      Misión y Visión
+      <h6 class="card-subtitle text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">De la tienda</font></font></h6>
+    </font></font>
+  </h3>
+  </div>
+  <ol class="list-group list-group-flush">
+    <li class="list-group-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> <strong> Misión: </strong> “Ser un empresa sólida, de fuertes valores y adecuada rentabilidad, que busca satisfacer las necesidades de nuestros clientes trabajando eficientemente y con calidad en la producción y comercialización de ingredientes para la industria alimenticia”.</font></font></li>
+    <li class="list-group-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><strong> Visión: </strong>“Ser líderes en soluciones en ingredientes con valor agregado para la industria alimenticia, convirtiéndonos en socios estratégicos de nuestros clientes y proveedores”.</font></font></li>
+
+  </ol>
+
+  
+{% endblock contenido %}
+
+{% block pie %}
+   {{ block.super }}
+{% endblock pie %}

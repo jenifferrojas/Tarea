@@ -1,0 +1,9 @@
+<form method= "post">
+    {% csrf_token %}
+  
+    <table class= "form-signin w-100 m-auto">
+      {{ formulario.as_table }}
+    </table>
+  
+    <input name="" id="" class="btn btn-success mt-3" type="submit" value="Agregar">
+  </form>

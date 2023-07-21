@@ -1,0 +1,23 @@
+{% extends "cliente.html" %}
+
+{% block titulo %}
+ Agregar
+{% endblock titulo %}
+{% block contenido %}
+ <div class="card mt-3 form-signin w-100 m-auto" >
+    <div class="card-header">
+        Agregar un cliente
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Ingrese:</h4>
+            {% include 'formulario.html' %} 
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+ </div>
+{% endblock contenido %}
+
+{% block pie %}
+ {{ block.super }}
+{% endblock pie %}
